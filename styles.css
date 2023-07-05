@@ -9,6 +9,7 @@ body {
     font-family: "Percent","Beatrice",Arial,sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: #f6f5e8;
 }
 
 ul {
@@ -130,4 +131,78 @@ p {
     font-size: 30px;
     margin-top: 8px;
     font-weight: 500;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 400px;
+    background-color: #142800;
+    border: 7px #2c5601 solid;
+    border-radius: 12px;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: -12px;
+    color: #eee;
+}
+
+.quote p {
+    align-self: flex-end;
+    padding-right: 72px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #eee;
+}
+
+.cta-container {
+    display: flex;
+    background-color: #2c5601;
+    flex: 1;
+}
+
+.cta {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #861010;
+    margin: 100px 400px;
+    border: 10px #142800 solid;
+    border-radius: 12px;
+}
+
+.cta-text {
+    padding: 20px 40px;
+    padding-right: 200px;
+}
+
+.cta-text p {
+    margin-top: -12px;
+}
+
+.cta button {
+    margin-right: 100px;
+    width: 300px;
+    height: 50px;
+    border: 3px #142800 solid;
+    border-radius: 12px;
+    background-color: #861010;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #142800;
+    color: #eee;
 }
